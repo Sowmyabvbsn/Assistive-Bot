@@ -1,0 +1,11 @@
+<package format="2">
+  <name>secondary_display</name>
+  <version>0.0.1</version>
+  <description>Secondary display GUI for Assistive Bot FYDP</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>python3-tk</exec_depend>
+  <exec_depend>python3-pil</exec_depend>
+</package>

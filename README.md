@@ -66,7 +66,7 @@ roslaunch movement navigation.launch
 ---
 
 ## 👥 Team Workflow (Using Git + VS Code)
-These steps ensure all team members stay in sync and contribute efficiently.
+These steps ensure all team members stay in sync and contribute efficiently
 
 * **1️⃣ Set Up Git in VS Code (One Time)**
 - git config --global user.name "assistiverobotfydp@gmail.com"

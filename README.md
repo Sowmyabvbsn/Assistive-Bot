@@ -65,43 +65,46 @@ roslaunch movement navigation.launch
 
 ---
 
-👥 Team Workflow (Using Git + VS Code)
+## 👥 Team Workflow (Using Git + VS Code)
 These steps ensure all team members stay in sync and contribute efficiently.
 
-1️⃣ Set Up Git in VS Code (One Time)
-git config --global user.name "assistiverobotfydp@gmail.com"
-git config --global user.email "assistive@robot123"
+* **1️⃣ Set Up Git in VS Code (One Time)**
+- git config --global user.name "assistiverobotfydp@gmail.com"
+- git config --global user.email "assistive@robot123"
 
-2️⃣ Pull Latest Code Before Starting Work
-git pull origin main
+* **2️⃣ Pull Latest Code Before Starting Work**
+- git pull origin main
 
-3️⃣ Create a New Branch for Your Task
-git checkout -b feature/task-name
+* **3️⃣ Create a New Branch for Your Task**
+- git checkout -b feature/task-name
 
-Examples:
-feature/primary-display-gesture
-bugfix/floor-map-error
+* **Examples:**
+- feature/primary-display-gesture
+- bugfix/floor-map-error
 
-4️⃣ Stage & Commit Your Work
-git add .
-git commit -m "Meaningful message about your change"
+* **4️⃣ Stage & Commit Your Work**
+- git add .
+- git commit -m "Meaningful message about your change"
 
-5️⃣ Push to GitHub
-git push origin feature/task-name
-Then open GitHub → Create Pull Request → Get it reviewed → Merge to main.
+* **5️⃣ Push to GitHub**
+- git push origin feature/task-name
+- Then open GitHub → Create Pull Request → Get it reviewed → Merge to main.
 
-6️⃣ After Merging Pull Requests
+* **6️⃣ After Merging Pull Requests**
 
-git checkout main
-git pull origin main
-git branch -d feature/task-name
+- git checkout main
+- git pull origin main
+- git branch -d feature/task-name
 
-✅ Best Practices     
+---
 
-❌ Don't	                          ✅ Do
-Push to main directly	          | Use feature branches
-Work without pulling updates	  |Run git pull origin main regularly
-Leave unclear commit messages	  |Use short, clear descriptions
+## ✅ Best Practices     
+
+| ❌ Don't	                     |     ✅ Do                         |
+| ------------------------------- | -----------------------------------|
+| Push to main directly	          | Use feature branches               |
+| Work without pulling updates	  |Run git pull origin main regularly  |
+| Leave unclear commit messages	  |Use short, clear descriptions       |
 
 ---
 
@@ -112,6 +115,8 @@ Leave unclear commit messages	  |Use short, clear descriptions
 - Write clear commit messages:
   - ✅ `git commit -m "Added discount banner logic to secondary display"`
 - **Always `git pull` before starting new work.**
+
+---
 
 ## 🌿 Branch Naming
 
@@ -138,7 +143,7 @@ Please test your code **before** pushing. For ROS nodes:
 - Store images in `/assets`
 - Add helper scripts (bash, Python) in `/scripts`
 
-----
+---
 
 ## 🙌 Team
 

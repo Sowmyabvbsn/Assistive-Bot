@@ -19,13 +19,21 @@ The Assistive Bot is a modular robotic system composed of:
 
 ```
 Assistive-Bot-FYDP/
-├── Secondary_Display/      # Code for secondary (promo) display screen
-├── Primary_Display/        # Code for primary (gesture/interactive) screen
-├── Movement/               # Autonomous movement code using ROS
-├── assets/                 # Images, banners, logos, etc.
-├── scripts/                # Helper scripts (optional)
-├── README.md               # Project overview
-└── .gitignore              # Ignored files list
+├── Secondary_Display/          # Code for secondary (promo) display screen
+│   ├── display_node.py         # Python script to run the display node
+│   ├── assets/                 # Media assets for the secondary display
+│   │   ├── mall_map.png        # Floor map for location highlights
+│   │   └── banner_sample.jpg   # Sample promotional banner
+│   ├── launch/                 # ROS launch files for secondary display
+│   │   └── secondary_display.launch
+│   └── package.xml             # ROS package metadata
+├── Primary_Display/            # Code for primary (gesture/interactive) screen
+├── Movement/                   # Autonomous movement code using ROS
+├── assets/                     # Shared images, banners, logos, etc.
+├── scripts/                    # Helper scripts (bash, Python, etc.)
+├── README.md                   # Project overview and documentation
+└── .gitignore                  # Git ignore rules
+
 ```
 
 ---

@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# ROS build files
+build/
+devel/
+install/
+
+# ROS logs
+log/
+logs/
+*.log
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python virtual environment
+venv/
+env/
+*.egg-info/
+*.idea/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Node.js (if any web frontend)
+node_modules/
+
+# Compiled binaries
+*.out
+*.o
+*.exe
